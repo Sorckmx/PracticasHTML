@@ -1,0 +1,51 @@
+*{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;}
+/* El asterisco es un selector universal, selecciona todos los elementos de la página*/
+
+h2{font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;}
+/* Se selecciona solo la etiqueta con la que se piensa trabajar.*/
+
+.card{ background-color: lightsteelblue; }
+/*Un selector de tipo clase se llama utilizando un punto al inicio*/
+
+/*Se está modificando la parte de sección*/
+section{
+    width: 70%;
+    background-color: darkslategray;
+    float: left;
+    margin: 10px;
+}
+
+/*Se va modificar parte del artículo*/
+article{
+    margin: 0.5em 3em 0em 0em;
+    padding: 0.5em 2em;
+    background-color: darkred;
+    border: 10px solid black;
+}
+/*top, right, bottom, left*/
+/*margin: 5em 3em el primer término solo va afectar arriba y abajo,
+y el segundo término afecta derecha e izquierda*/
+
+footer{
+    background-color: blueviolet;
+    width: auto;
+    height: 60px;
+    text-align: center;
+    padding: 45px;
+    margin: 10px;
+    clear: both;
+}
+
+aside{
+    width: 25%;
+    float: left;
+    background-color: yellowgreen;
+}
+
+
+/*Medidas absolutas: Pixeles (px) son medidas que no van a cambiar en el proyecto*/
+/*Medidas relativas: em, es una medida que se adapta a la fuente del navegador para hacer referencia a este,
+rem se adapta a la fuente raíz del html*/
+/*Medidas flexibles: vw se calcula respecto al ancho del viewport, por ejemplo,
+100 vw es igual al 100% de la ventana
+vh se calcula respecto al alto del viewport, por ejemplo, 100 vh es igual al 100% de la ventana*/

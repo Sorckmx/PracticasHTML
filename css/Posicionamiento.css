@@ -1,0 +1,47 @@
+.box {
+    display: inline-block; /*Controla Estructura*/
+    width: 100px; /*Ancho*/
+    height: 100px;/*Altura*/
+    background: pink; /*Fondo*/
+    color: white;/*Color texto*/
+
+}
+
+#two {
+    position: absolute ; /*static, relative, sticky, absolute, */
+    top: 20px;
+    left: 20px;
+    background-color: palevioletred;
+}
+
+#three { 
+    position: relative;
+    top: 50px;
+    left: 50px;
+    background-color: blueviolet;
+}
+
+#four {
+    position: absolute;
+    top: 30px;
+    left: 150px;
+    background-color: darkorchid;
+}
+
+.uno {
+    font: bold;
+    font-style: initial;
+    color: rgb(18, 105, 146);
+}
+
+.dos {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkgreen;
+}
+
+.texto1 {
+    width: 600px;
+    height: 400px;
+    overflow: auto; /*visible, hidden, scroll, auto*/
+    padding-left: 150px; /*Espacio entre bloques*/
+}

@@ -1,0 +1,22 @@
+/*Configuración de color de menú*/
+nav{
+    background-color: silver;
+    width: auto;
+    height: 50px;
+    word-spacing: 55px;
+    text-align: center;
+    padding: 25px;
+    margin: 10px;
+
+}
+a{
+    text-decoration: none;
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+a:active{
+    background-color: rgb(85, 201, 170);
+    border-radius: 20px;
+    padding: 15px;
+}
