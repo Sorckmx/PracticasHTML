@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+}
+
+#one {
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+    flex-grow: 0.1;
+}
+
+#two {
+    background-color: darksalmon;
+    width: 200px;
+    height: 200px;
+    flex-shrink: 50;
+}
+
+#three {
+    background-color: lightslategrey;
+    width: 200px;
+    height: 200px;
+    flex-basis: min-content;
+
+}
